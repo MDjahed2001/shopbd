@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Think - Product Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Smart Think</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="account.html">Account</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Shopping Cart -->
+    <div class="container my-5">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="images/product-1.jpg" class="img-thumbnail mr-3">
+              Iphone 14 Pro Max
+            </td>
+            <td>BDT 150,000.00</td>
+            <td>
+             <input type="number" value="1" min="1" class="form-control" style="width: 80px;"> 
+            </td>
+            <td>BDT 150,000.00</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/product-3.jpg" class="img-thumbnail mr-3">
+              Samsung Galaxy S23 Ultra
+            </td>
+            <td>BDT 146,000.00</td>
+            <td>
+              <input type="number" value="2" min="1" class="form-control" style="width: 80px;">
+            </td>
+            <td>BDT 292,000.00</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="text-right">Total:</td>
+            <td>BDT 442,000.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="text-right">
+        <a href="#" class="btn btn-primary">Continue Shopping</a>
+        <a href="#" class="btn btn-success">Checkout</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Smart Think</h3>
+            <p>An online smartphone shop.</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Contact Us</h3>
+            <ul class="list-unstyled">
+              <li>Bashundara City Shopping Mall</li>
+              <li>Dhaka, BD</li>
+              <li>Phone: 01870359605</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
